@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#7faacc</color>
+    <color name="colorPrimaryDark">#3f749e</color>
+    <color name="colorAccent">#c02266</color>
+
+    <color name="colorBackground">#dee9f1</color>
+    <color name="colorlightPrimary">#effaff</color>
+    <color name="colorWarning">#c02266</color>
+    <color name="colorButton">#fe897c</color>
+
+    <color name="colorlightpurple">#cca3fe</color>
+    <color name="colororange">#ff8040</color>
+    <color name="colororangedark">#fe6b38</color>
+    <color name="colorbabyyellow">#ffe48d</color>
+    <color name="coloryellow">#e6c055</color>
+    <color name="coloryellow2">#ffde6a</color>
+    <color name="colorlightgreen">#80b330</color>
+    <color name="colormidnightgreen">#004953</color>
+    <color name="colorlightgrey">#cbcbcb</color>
+    <color name="colorgrey">#878787</color>
+    <color name="colorgreydark">#434343</color>
+    <color name="colorskybluedark">#3f749e</color>
+    <color name="colorskyblue">#7faacc</color>
+    <color name="colorskyblueback">#dee9f1</color>
+
+    <color name="colormediumorange">#f2635d</color>
+    <color name="colorgreendark">#23626b</color>
+
+
+    <color name="colorSKULogoBack">#d6dbf5</color>
+    <color name="colorSKULogo">#5165e1</color>
+    <color name="colorSKULogoDark">#162683</color>
+
+</resources>

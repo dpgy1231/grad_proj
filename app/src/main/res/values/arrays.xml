@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="year">
+        <item>2019년도</item>
+    </string-array>
+    <string-array name="term">
+        <item>1학기</item>
+        <item>여름학기</item>
+        <item>2학기</item>
+        <item>겨울학기</item>
+    </string-array>
+    <string-array name="area">
+        <item>전공</item>
+        <item>융합전공</item>
+        <item>타과전공</item>
+        <item>교양</item>
+        <item>기타</item>
+    </string-array>
+    <string-array name="scheduleMenu">
+        <item>강의 목록</item>
+        <item>시간표</item>
+        <item>내 강의</item>
+    </string-array>
+
+    <string-array name="noticeTag">
+        <item>전체</item>
+        <item>1학년</item>
+        <item>2학년</item>
+        <item>3학년</item>
+        <item>4학년</item>
+    </string-array>
+
+    <string-array name="classDay">
+        <item>월요일</item>
+        <item>화요일</item>
+        <item>수요일</item>
+        <item>목요일</item>
+        <item>금요일</item>
+    </string-array>
+</resources>

@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Project0925</string>
+    <string name="title_activity_notice">NoticeActivity</string>
+    <string name="title_activity_community">CommunityActivity</string>
+</resources>

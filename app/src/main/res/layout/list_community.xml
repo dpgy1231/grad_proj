@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="오늘 점심 뭐먹지? 골라줄 사람"
+            android:layout_marginLeft="2dp"
+            android:maxLines="1"
+            android:ellipsize="end"
+            android:id="@+id/communityTitle"
+            android:padding="3dp"
+            android:textColor="#000000"
+            android:textSize="16dp"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_gravity="left">
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="퉁퉁이"
+                    android:layout_marginLeft="5dp"
+                    android:id="@+id/communityWriter"
+                    android:padding="1dp"
+                    android:textColor="#333333"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="10/01"
+                    android:id="@+id/communityDate"
+                    android:layout_marginLeft="3dp"
+                    android:padding="1dp"
+                    android:textColor="#333333"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="00:00"
+                    android:id="@+id/communityTime"
+                    android:layout_marginLeft="3dp"
+                    android:padding="1dp"
+                    android:textColor="#333333"/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginRight="10dp"
+                android:layout_gravity="right"
+                android:gravity="right">
+                <TextView
+                    android:id="@+id/communityHeartCount"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="right"
+                    android:text="♡ 0"
+                    android:textSize="11dp"
+                    android:textColor="@color/colorWarning"
+                    />
+
+                <TextView
+                    android:id="@+id/communityCount"
+                    android:layout_width="85dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:text="조회수 0"
+                    android:textSize="13dp"
+                    android:textColor="@color/colorgreydark"
+                    />
+            </LinearLayout>
+
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Fragment.mypage.MypageCheckActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/colorPrimary"
+            android:orientation="horizontal">
+
+            <Button
+                android:layout_width="50dp"
+                android:layout_height="45dp"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:id="@+id/backButton"
+                android:layout_marginLeft="5dp"
+                app:backgroundTint="@color/colorPrimaryDark"
+                android:drawableTop="@drawable/ic_arrow_back_white_24dp"
+                app:cornerRadius="10dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:layout_marginTop="7dp"
+                android:layout_marginBottom="7dp"
+                android:layout_marginRight="50dp"
+                android:text="회원정보 확인"
+                android:textColor="#ffffff"
+                android:textSize="29dp"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_marginTop="25dp">
+
+
+            <TextView
+                android:id="@+id/idText"
+                android:layout_width="280dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="아이디(학번) : 2015305084"
+                android:textSize="18dp"
+                android:textStyle="bold"
+                android:padding="10dp"
+                android:textColor="@color/colorgrey"
+                android:layout_marginTop="10dp"/>
+
+            <TextView
+                android:id="@+id/nameText"
+                android:layout_width="280dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="이름 : 홍송희"
+                android:textSize="18dp"
+                android:textStyle="bold"
+                android:privateImeOptions="defaultInputmode=korean"
+                android:padding="10dp"
+                android:textColor="@color/colorgrey"
+                android:layout_marginTop="10dp"/>
+
+            <TextView
+                android:id="@+id/genderText"
+                android:layout_width="280dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:text="성별 : 여자"
+                android:textSize="18dp"
+                android:textStyle="bold"
+                android:padding="10dp"
+                android:textColor="@color/colorgrey" />
+
+            <TextView
+                android:id="@+id/gradeText"
+                android:layout_width="280dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:text="학년 : 4"
+                android:textSize="18dp"
+                android:textStyle="bold"
+                android:padding="10dp"
+                android:textColor="@color/colorgrey" />
+
+            <TextView
+                android:id="@+id/emailText"
+                android:layout_width="280dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="이메일 : abcd@abc.com"
+                android:textStyle="bold"
+                android:textSize="18dp"
+                android:padding="10dp"
+                android:textColor="@color/colorgrey"
+                android:layout_marginTop="10dp"/>
+
+            <TextView
+                android:id="@+id/phoneText"
+                android:layout_width="280dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:text="휴대전화번호 : 01012345678"
+                android:textStyle="bold"
+                android:textSize="18dp"
+                android:padding="10dp"
+                android:textColor="@color/colorgrey"/>
+
+            <Button
+                android:id="@+id/modifyButton"
+                android:layout_width="160dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="35dp"
+                android:background="@color/colorPrimaryDark"
+                android:text="수정하기"
+                android:textColor="#ffffff"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

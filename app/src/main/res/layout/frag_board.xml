@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content" >
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="8dp"
+    android:background="#9dc8ea">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="@drawable/customborder"
+        android:layout_marginTop="12dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=">  학과 공지"
+            android:layout_gravity="left"
+            android:layout_marginLeft="10dp"
+            android:textSize="20dp"
+            android:textColor="#2e638d"
+            android:textStyle="bold"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="230dp"
+            android:layout_margin="10dp"
+            android:background="@color/colorBackground">
+
+            <ListView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/noticeListView"
+                android:dividerHeight="2dp"
+                android:divider="@color/colorBackground"
+                android:padding="5dp"
+                android:background="@drawable/corner_shape_list"/>
+
+        </LinearLayout>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="27dp"
+            android:textSize="13dp"
+            android:textStyle="bold"
+            android:textColor="#ffffff"
+            android:background="@color/colorButton"
+            android:text="+ 더보기"
+            android:layout_gravity="center"
+            android:layout_marginBottom="2dp"
+            android:layout_marginTop="2dp"
+            android:id="@+id/moreNotice"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="@drawable/customborder"
+        android:layout_marginTop="12dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=">  교수님 알림"
+            android:layout_gravity="left"
+            android:layout_marginLeft="10dp"
+            android:textSize="20dp"
+            android:textColor="#2e638d"
+            android:textStyle="bold"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="27dp"
+            android:textSize="13dp"
+            android:textStyle="bold"
+            android:textColor="#ffffff"
+            android:background="@color/colorButton"
+            android:layout_marginTop="12dp"
+            android:text="+ 더보기"
+            android:layout_gravity="center"
+            android:layout_marginBottom="1dp"
+            android:id="@+id/moreProNotice"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="@drawable/customborder"
+        android:layout_marginTop="12dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=">  자유게시판"
+            android:layout_gravity="left"
+            android:layout_marginLeft="10dp"
+            android:textSize="20dp"
+            android:textColor="#2e638d"
+            android:textStyle="bold"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="27dp"
+            android:textSize="13dp"
+            android:textStyle="bold"
+            android:textColor="#ffffff"
+            android:background="@color/colorButton"
+            android:layout_marginTop="12dp"
+            android:text="+ 더보기"
+            android:layout_gravity="center"
+            android:layout_marginBottom="1dp"
+            android:id="@+id/moreCommunity"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="@drawable/customborder"
+        android:layout_marginTop="12dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=">  교수님께"
+            android:layout_gravity="left"
+            android:layout_marginLeft="10dp"
+            android:textSize="20dp"
+            android:textColor="#2e638d"
+            android:textStyle="bold"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="27dp"
+            android:textSize="13dp"
+            android:textStyle="bold"
+            android:textColor="#ffffff"
+            android:background="@color/colorButton"
+            android:layout_marginTop="12dp"
+            android:text="+ 더보기"
+            android:layout_gravity="center"
+            android:layout_marginBottom="1dp"
+            android:id="@+id/moreToProfessor"/>
+    </LinearLayout>
+</LinearLayout>
+</ScrollView>

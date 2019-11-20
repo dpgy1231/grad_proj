@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="오늘 점심 뭐먹지? 골라줄 사람"
+            android:id="@+id/fromStuTitle"
+            android:maxLines="1"
+            android:ellipsize="end"
+            android:padding="3dp"
+            android:layout_marginLeft="3dp"
+            android:textColor="#000000"
+            android:textSize="17dp"/>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_weight="10"
+            android:background="#ffffff">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="퉁퉁이"
+                android:layout_marginLeft="5dp"
+                android:id="@+id/fromStuWriter"
+                android:padding="1dp"
+                android:textColor="#333333"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="2019-10-01"
+                android:id="@+id/fromStuDate"
+                android:layout_marginLeft="3dp"
+                android:padding="1dp"
+                android:textColor="#333333"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="00:00"
+                android:id="@+id/fromStuTime"
+                android:layout_marginLeft="3dp"
+                android:padding="1dp"
+                android:textColor="#333333"/>
+
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>
